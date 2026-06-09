@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أحلى ريما 🦋</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="particles" id="particles" aria-hidden="true"></div>
+    <h2 class="title">أحــلى ريما 🦋💗</h2>
+
+    <div class="card" id="gate">
+        <div class="butterfly">🦋</div>
+        <p class="intro">رسالة اعتذار خاصة من ضياء إلى:</p>
+        <h1 class="name">ريما 🌸</h1>
+        <p class="subtitle">لأرق بنت تعشق الفراشات والورود في العالم 🦋✨</p>
+        <input class="input" id="codeInput" type="password" inputmode="numeric" placeholder="أدخلي كلمة السر..."
+            aria-label="كلمة السر" />
+        <button class="button" id="unlockBtn">افتح رسالة الاعتذار 💌</button>
+        <p class="error" id="error"></p>
+    </div>
+
+    <div class="overlay" id="overlay" hidden>
+        <div class="hearts-rain" id="heartsRain" aria-hidden="true"></div>
+        <div class="envelopeWrap">
+            <div class="wings">
+                <img class="wing wingLeft" src="wing.png" alt="" aria-hidden="true" />
+                <img class="wing wingRight" src="wing.png" alt="" aria-hidden="true" />
+            </div>
+            <div class="letter">
+                <div class="letterSeal" aria-hidden="true">💌</div>
+                <p class="letterTo">إلى الغالية ريما 🦋💗</p>
+                <div class="hearts">💖🌸💖</div>
+                <p class="letterBody">
+                    سامحيني يا أجمل ما في حياتي… أعتذر من كل قلبي عن كل لحظة
+                    أحزنتكِ فيها أو قصّرتُ فيها معكِ. أنتِ أغلى من الكلمات،
+                    وابتسامتكِ تستحق أن أحرسها طوال العمر.
+                    <br />
+                    قلبي لا يهنأ وأنتِ زعلانة، فاغفري لي وارجعي لي كما كنتِ
+                    دائمًا… نوري وفرحتي. أعدكِ أن أملأ أيامكِ فرحًا وورودًا 🌷
+                    وأبقى إلى جانبكِ مهما حدث. أنتِ الأحلى وستبقين الأحلى. 🤍
+                </p>
+                <p class="letterSign">كل الحب والاعتذار، من:</p>
+                <p class="letterFrom">ضياء ✨</p>
+            </div>
+            <div class="actions">
+                <button class="muteBtn" id="muteBtn" title="كتم / تشغيل">🔊</button>
+                <button class="closeBtn" id="closeBtn">إغلاق الرسالة 🤍</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="song" src="song.mp3" loop preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
